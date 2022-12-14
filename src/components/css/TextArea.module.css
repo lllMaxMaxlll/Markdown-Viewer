@@ -1,0 +1,19 @@
+.textarea {
+	background-color: #222433;
+	width: 94%;
+	padding: 3%;
+}
+
+.editor {
+	height: 100%;
+	width: 100%;
+	resize: none;
+	font-family: "Fira Code", monospace;
+	background-color: #222433;
+	border: none;
+	color: white;
+}
+
+.editor:focus {
+	outline: none;
+}

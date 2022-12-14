@@ -1,0 +1,8 @@
+.preview {
+	width: 94%;
+	padding: 3%;
+}
+
+.preview > * {
+	padding: 5px;
+}
