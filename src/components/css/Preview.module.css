@@ -1,8 +1,19 @@
 .preview {
 	width: 94%;
 	padding: 3%;
+	overflow: scroll;
 }
 
 .preview > * {
 	padding: 5px;
+}
+
+pre {
+	background-color: #cfcfcf;
+}
+
+p > code {
+	color: rgb(255, 255, 255);
+	background-color: rgb(68, 68, 68);
+	padding: 2px;
 }

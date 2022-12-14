@@ -7,6 +7,7 @@
 
 .containerText {
 	width: 100%;
+	height: 100vh;
 	display: grid;
 	grid-template-columns: 50% 50%;
 }
@@ -44,4 +45,11 @@
 	right: 2rem;
 	top: 0.8rem;
 	color: white;
+}
+
+@media screen and (max-width: 600px) {
+	.containerText {
+		grid-template-columns: 100%;
+		grid-template-rows: 50% 50%;
+	}
 }
